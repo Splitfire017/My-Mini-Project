@@ -1,0 +1,133 @@
+@import url('https://googleapis.com?css?family=Poppins:400,500,700');
+{<!--Carousel Start Here-->}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+{navigation start here}
+.navbar{
+    padding-right: 20px;
+    background-color: rgb(25, 23, 23);
+}
+.navbar-brand{
+    color: white;
+}
+.navbar #navbarnav li{
+    padding-right: 30px;
+}
+.nav-link{
+    font-size: 18px;
+    color: white;
+}
+.mainlogo{
+    height: 90vh;
+    width: 100%;
+}
+{navigation end here}
+
+{carousel start here}
+
+.product-item{
+    border: 1px solid rgb(219, 219, 219);
+}
+.product-img{
+    position: relative;
+    overflow: hidden;
+}
+.btns{
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+.btns button{
+    border: none;
+    background-color: rgb(39,39,39);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.btns button:hover{
+    color: #fcb941 ;
+}
+.product-img:hover .btns{
+    bottom: 0;
+}
+.heart-icon{
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 18px;
+}
+.product-type{
+    font-size: 13px;
+    opacity: 0.8;
+}
+.product-name{
+    transition: all 0.3s ease-in-out;
+}
+.product-name:hover{
+    color: #fcb941 !important;
+}
+.product-price{
+    color: red;
+}
+.rating{
+    font-size: 13px;
+}
+.product-item{
+    max-width: 300px;
+    max-height: 500px;
+    padding: 0px;
+
+}
+
+{<!--Carousel End Here-->}
+
+{Social Starts Here}
+.website{
+    text-align: center;
+}
+#social_media1{
+    color:rgb(0, 47, 254);
+    opacity: 0.6;
+    font-size: 30px;
+    transition: all 0.2s linear;
+}
+#social_media1 i:hover{
+    opacity: 1;   
+}
+#social_media2{
+    color:rgb(255, 0, 0);
+    font-size: 30px;
+}
+#social_media3{
+    color:rgb(1, 134, 252);
+    font-size: 30px;
+}
+.website{
+    background-color: rgb(25, 23, 23);
+    color: white;
+    font-size: 30px;
+}
+
+{Social End Here}
+
+{Social End Here}
+.footer{
+    line-height: 5px;
+    background-color: rgb(25, 23, 23);
+    color: white;
+}
+{Footer End Here}
+
+
+
+
+
+
+
+
+
+
